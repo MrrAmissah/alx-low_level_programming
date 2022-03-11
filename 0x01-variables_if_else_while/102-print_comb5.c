@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: always return 0
  *
@@ -9,7 +9,6 @@ int main(void)
 {
 	int i;
 	int j;
-
 
 	for (i = 0; i <= 99; i++)
 	{
