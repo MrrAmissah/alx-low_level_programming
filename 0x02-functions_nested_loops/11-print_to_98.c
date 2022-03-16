@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Description: print_to_98 prints natural
+ * print_to_98 - prints natural
  * numbers up to the number 98
  */
 void print_to_98(int n)
