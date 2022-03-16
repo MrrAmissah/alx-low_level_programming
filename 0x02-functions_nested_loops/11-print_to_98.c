@@ -5,6 +5,8 @@
 /**
  * print_to_98 - prints natural
  * numbers up to the number 98
+ *
+ * n - represents the specified integer
  */
 void print_to_98(int n)
 {
