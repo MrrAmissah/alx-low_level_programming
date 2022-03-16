@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints natural
- * numbers up to the number 98
+ * print_to_98 - prints natural numbers up to the number 98
+ * Followed by a newline
  *
- * 'n' - represents the specified integer
+ * @n: print from this number
  */
 void print_to_98(int n)
 {
