@@ -1,24 +1,30 @@
-#include<stdio.h>
 #include "main.h"
-/**
- *_strcpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
- *Return: not.
- */
-char *_strcpy(char *dest, char *src)
-{
-	int l = 0;
-	int x = 0;
 
-	while (*(src + l) != '\0')
+/**
+ * _strncpy - copies a string
+ * @dest: destination string
+ * @src: source string
+ * @n: number of bytes to copy
+ *
+ * Return: pointer to the resulting string
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	int i;
+
+	i = 0;
+
+	while (src[i] != '\0' && i < n)
 	{
-		l++;
+		dest[i] = src[i];
+		i++;
 	}
-	for ( ; x < l ; x++)
+
+	while (i < n)
 	{
-		dest[x] = src[x];
+		dest[i] = '\0';
+		i++;
 	}
-	dest[l] = '\0';
+
 	return (dest);
 }
