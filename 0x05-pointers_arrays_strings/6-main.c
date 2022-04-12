@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - check the code for Holberton School students.
+* main - checking the code begins here
 *
 * Return: Always 0.
 */
